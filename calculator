@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <ctype.h>
+int main() {
+    int a,b,c;
+    printf("Enter two numbers a and b: \n ");
+    scanf("%d%d",&a,&b);
+    printf("Press 1 for Addition\nPress 2 for Subtraction\nPress 3 for Multiplication\nPress 4 for Division\n");
+    printf("Enter two numbers a and b: \n ");
+    scanf("%d",&c);
+    if(c==1)
+        printf("Result%d",a+b);
+        else if(c==2)
+        printf("Result%d",a-b);
+        else if(c==3)
+        printf("Result%d",a*b);
+        else if(c==4)
+        {
+        float d=b;
+        printf("Result%f",a/d);}
+        else 
+        printf("Invalid case");
+    return 0;
+}
