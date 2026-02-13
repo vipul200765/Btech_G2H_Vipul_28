@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+char main() {
+    char a;
+    printf("Enter the character: \n ");
+    scanf("%c",&a);
+    a=(char)tolower(a);
+    if((a=='a')||(a=='e')||(a=='i')||(a=='o')||(a=='u'))
+        printf("Entered character is vowel");
+        else
+        printf("Entered character is consonant");
+    
+}
