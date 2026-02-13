@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+void main() {
+    int a,b,c;
+    printf("Enter the Principal: \n ");
+    scanf("%d",&a);
+    printf("Enter the ROI: \n ");
+    scanf("%d",&b);
+    printf("Enter the Time Period: \n ");
+    scanf("%d",&c);
+    
+    printf("Principle:%d \n Rate of interest:%d \n Time Period:%d \n",a,b,c);
+    
+     printf("SI:%f \n",(a*b*c)/100.0);
+     printf("CI: %f \n", ((a*pow((1+(b/100.0)),c)-a)));
+   // return 0;
+}
