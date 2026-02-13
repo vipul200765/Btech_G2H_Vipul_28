@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+void main() {
+    int a;
+    printf("Enter the radius: \n ");
+    scanf("%d",&a);
+    printf("Radius:%d \n",a);
+    printf("Circumference:%f \n",(2*(22/7.0)*a));
+     printf("Area:%f",((22/7.0)*a*a));
+}
